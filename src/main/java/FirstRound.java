@@ -22,6 +22,9 @@ public class FirstRound {
       else if( values[1] == 2)
       {
         --totalOpen;
+        if(totalOpen == 0){
+          ++counter;K
+        }
       }
       if(totalOpen> 0){
         ++counter;
