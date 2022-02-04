@@ -11,11 +11,11 @@ public class FirstRound {
     int[] values = new int[10];
     Arrays.fill(values,0);
 
-    for(int i = 0; i< reports[0];i++) {
-      int start = i == 0 ? 0 : (i*2)-1;
-      int end = i == 0 ? 1 : i*2;
-      values[start]=1;
-      values[end]=2;
+    for(int i = 1; i< reports[0]*2;) {
+      values[reports[i]-1]= 1;
+      ++i;
+      values[reports[i]-1]=2;
+      ++i;
     }
     int totalOpen = 0;
     int counter = 0;
