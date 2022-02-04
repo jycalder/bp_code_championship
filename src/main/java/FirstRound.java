@@ -7,8 +7,7 @@ public class FirstRound {
   public static long reports(int[] reports){
     int[] values = new int[50000000];
 
-    for(int i = 1; i< reports[0];i++)
-    {
+    for(int i = 1; i< reports[0];i++) {
       values[(i*2)-1]=1;
       values[i*2]=2;
     }
