@@ -23,7 +23,7 @@ public class FirstRound {
       {
         --totalOpen;
         if(totalOpen == 0){
-          ++counter;K
+          ++counter;
         }
       }
       if(totalOpen> 0){
