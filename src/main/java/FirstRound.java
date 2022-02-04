@@ -19,7 +19,7 @@ public class FirstRound {
       if(values[i] == 1){
         ++totalOpen;
       }
-      else if( values[1] == 2)
+      else if( values[i] == 2)
       {
         --totalOpen;
         if(totalOpen == 0){
