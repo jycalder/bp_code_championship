@@ -8,7 +8,7 @@ public class FirstRound {
   }
 
   public static long reports(int[] reports){
-    int[] values = new int[10];
+    int[] values = new int[50000000];
     Arrays.fill(values,0);
 
     for(int i = 1; i< reports[0]*2;) {
@@ -20,7 +20,6 @@ public class FirstRound {
     int totalOpen = 0;
     int counter = 0;
     for(int i = 0; i< values.length;i++){
-      System.out.print(values[i] +",");
       if(values[i] == 1){
         ++totalOpen;
       }
@@ -35,7 +34,6 @@ public class FirstRound {
       }
     }
 
-    System.out.println("");
     return counter;
   }
 }
